@@ -6,15 +6,6 @@ export default function Home() {
             <h1>Home</h1>
 
             <div>
-              <h2>MEUS PRODUTOS</h2>
-              <ul>
-                <li><Link href="/Produtos/calca">CALÇA</Link></li>
-                <li><Link href="/Produtos/meia">MEIA</Link></li>
-                <li><Link href="/Produtos/camisa">CAMISA</Link></li>
-                <li><Link href="/Produtos/tenis">TÊNIS</Link></li>
-              </ul>
-            </div> 
-
             <figure>
              <Image
               src="/img/home.jpg"
@@ -23,6 +14,7 @@ export default function Home() {
               height={360}
               />
             </figure>
+            </div> 
          </>      
   )
 }
